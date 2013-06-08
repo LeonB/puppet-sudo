@@ -1,7 +1,7 @@
 class sudo::package {
 
-	package  { $sudo::package_name:
-		ensure => $sudo::ensure,
-	}
+  package  { $sudo::package_name:
+    ensure => $sudo::ensure,
+  }
 
 }

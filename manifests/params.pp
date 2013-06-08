@@ -14,12 +14,12 @@
 #
 class sudo::params {
 
-	### Application related parameters
+  ### Application related parameters
 
-	$package_name = $::operatingsystem ? {
-		default => 'sudo'
-	}
+  $package_name = $::operatingsystem ? {
+    default => 'sudo'
+  }
 
-	$enabled = true
+  $enabled = true
 
 }
